@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="parameter" thread-count="1" parallel="tests" preserve-order="true" >
+<test  name="FireFoxTesting">
+<parameter name="browser" value="ff"></parameter>
+<classes>
+
+<class name="twoplug.TP_001"/>
+</classes>
+</test>
+<test  name="ChromeTesting">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+
+
+<class name="twoplug.TP_001"/>
+</classes>
+</test>
+<test  name="FireFoxTesting1">
+<parameter name="browser" value="ff"></parameter>
+<classes>
+
+<class name="twoplug.TP_002TP_003"/>
+</classes>
+</test>
+<test  name="ChromeTesting1">
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+
+
+<class name="twoplug.TP_002TP_003"/>
+</classes>
+</test>
+</suite>

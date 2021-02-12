@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="parameter"  parallel="tests">
+<test  name="FireFoxTesting">
+<parameter name="browser" value="ff"></parameter>
+<classes>
+
+<class name="twoplug.TP_001"/>
+<class name="twoplug.TP_002TP_003"></class>
+<class name="twoplug.TP_004TP_005"/>
+<class name="twoplug.TP_006TP_014"/>
+<class name="twoplug.TP_007"/>
+<class name="twoplug.TP_008"/>
+<class name="twoplug.TP_009"/>
+<class name="twoplug.TP_010TP_011"/>
+
+
+</classes> 
+</test>
+<test  name="ChromeTesting">
+
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+
+<class name="twoplug.TP_001"/>
+<class name="twoplug.TP_002TP_003"></class>
+ <class name="twoplug.TP_004TP_005"/>
+<class name="twoplug.TP_006TP_014"/>
+ <class name="twoplug.TP_007"/>
+ <class name="twoplug.TP_008"/>
+ <class name="twoplug.TP_009"/>
+ <class name="twoplug.TP_010TP_011"/>
+
+</classes> 
+
+</test>
+
+</suite>

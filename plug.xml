@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="parameter" parallel="tests">
+<test  name="FireFoxTesting">
+<parameter name="browser" value="ff"></parameter>
+<classes>
+
+<class name="twoplug.TP_001"/>
+<class name="twoplug.TP_002TP_003"></class>
+<class name="twoplug.TP_004TP_005"/>
+<class name="twoplug.TP_006TP_014"/>
+<class name="twoplug.TP_007"/>
+<class name="twoplug.TP_008"/>
+<class name="twoplug.TP_009"/>
+<class name="twoplug.TP_010TP_011"/>
+<class name="twoplug.TP_013"/>
+<class name="twoplug.TP_015"/>
+<class name="twoplug.TP_016"/>
+<class name="twoplug.TP_017ff"/>
+<class name="twoplug.TP_018"/>
+<class name="twoplug.TP_019"/>
+<class name="twoplug.TP_021"/>
+<class name="twoplug.TP_022"/>
+<class name="twoplug.TP_023"/>
+<class name="twoplug.TP_024"/>
+<class name="twoplug.TP_25ff"/>
+
+</classes> 
+</test>
+<test  name="ChromeTesting">
+
+<parameter name="browser" value="chrome"></parameter>
+<classes>
+
+<class name="twoplug.TP_001"/>
+<class name="twoplug.TP_002TP_003"></class>
+ <class name="twoplug.TP_004TP_005"/>
+<class name="twoplug.TP_006TP_014"/>
+ <class name="twoplug.TP_007"/>
+ <class name="twoplug.TP_008"/>
+ <class name="twoplug.TP_009"/>
+ <class name="twoplug.TP_010TP_011"/>
+ <class name="twoplug.TP_013"/>
+ <class name="twoplug.TP_015"/>
+ <class name="twoplug.TP_016"/>
+ <class name="twoplug.TP_017chrome"/>
+ <class name="twoplug.TP_018"/>
+ <class name="twoplug.TP_019"/>
+ <class name="twoplug.TP_021"/>
+ <class name="twoplug.TP_022"/>
+ <class name="twoplug.TP_023"/>
+ <class name="twoplug.TP_024"/>
+ <class name="twoplug.TP_025"/>
+
+</classes> 
+
+</test>
+
+</suite>
